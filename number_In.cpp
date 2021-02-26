@@ -5,6 +5,7 @@ namespace simple_numbers {
 	// Сигнатуры требуемых внешних функций
 	complex* InComplex(ifstream& ist);
 	simple* InSimple(ifstream& ist);
+	polar* InPolar(ifstream& ist);
 	// Ввод параметров обобщенного числа из файла
 	number* In(ifstream& ifst)
 	{
@@ -21,6 +22,11 @@ namespace simple_numbers {
 			nb = new number;
 			nb->k = number::key::SIMPLE;
 			nb->obj = (void*)InSimple(ifst);
+			return nb;
+		case 3:
+			nb = new number;
+			nb->k = number::key::POLAR;
+			nb->obj = (void*)InPolar(ifst);
 			return nb;
 		default:
 			return 0;
