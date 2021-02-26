@@ -8,6 +8,7 @@ namespace simple_numbers {
 	void Clear(container& c);
 	void In(container& c, ifstream& ifst);
 	void Out(container& c, ofstream& ofst);
+	void OutComplex(container& c, ofstream& ofst);
 }
 using namespace simple_numbers;
 
@@ -24,10 +25,10 @@ int main(int argc, char* argv[]) {
 	Init(c);
 	In(c, ifst);
 	ofst << "Filled container. " << endl;
-	Out(c, ofst);
+	OutComplex(c, ofst);
 	Clear(c);
 	ofst << "Empty container. " << endl;
-	Out(c, ofst);
+	OutComplex(c, ofst);
 	cout << "Stop" << endl;
 	return 0;
 }
