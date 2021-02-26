@@ -1,9 +1,9 @@
 Filled container. 
-Container contains 5 elements.
+Only complexes.
 0: It is complex: Re = 4, In = 5
 1: It is complex: Re = 6, In = 7
-2: It is simple fraction: a = 2, b = 3
-3: It is simple fraction: a = 5, b = 6
-4: It is simple fraction: a = 5, b = 7
+2: 
+3: 
+4: 
 Empty container. 
-Container contains 0 elements.
+Only complexes.
