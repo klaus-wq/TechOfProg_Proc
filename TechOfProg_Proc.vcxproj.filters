@@ -27,6 +27,9 @@
     <ClInclude Include="simple_atd.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="polar_atd.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="complex_In.cpp">
@@ -57,6 +60,12 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="simple_Out.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="polar_In.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="polar_Out.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

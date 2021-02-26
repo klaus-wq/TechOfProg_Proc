@@ -142,6 +142,7 @@
     <ClInclude Include="complex_atd.h" />
     <ClInclude Include="container_atd.h" />
     <ClInclude Include="number_atd.h" />
+    <ClInclude Include="polar_atd.h" />
     <ClInclude Include="simple_atd.h" />
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +154,8 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="number_In.cpp" />
     <ClCompile Include="number_Out.cpp" />
+    <ClCompile Include="polar_In.cpp" />
+    <ClCompile Include="polar_Out.cpp" />
     <ClCompile Include="simple_In.cpp" />
     <ClCompile Include="simple_Out.cpp" />
   </ItemGroup>
