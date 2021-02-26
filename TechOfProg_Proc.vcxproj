@@ -147,14 +147,17 @@
   <ItemGroup>
     <ClCompile Include="complex_In.cpp" />
     <ClCompile Include="complex_Out.cpp" />
+    <ClCompile Include="complex_real.cpp" />
     <ClCompile Include="container_Constr.cpp" />
     <ClCompile Include="container_In.cpp" />
     <ClCompile Include="container_Out.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="number_In.cpp" />
     <ClCompile Include="number_Out.cpp" />
+    <ClCompile Include="number_real.cpp" />
     <ClCompile Include="simple_In.cpp" />
     <ClCompile Include="simple_Out.cpp" />
+    <ClCompile Include="simple_real.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
