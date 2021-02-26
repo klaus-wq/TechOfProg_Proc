@@ -4,6 +4,7 @@ using namespace std;
 namespace simple_numbers {
 	// Сигнатуры требуемых внешних функций
 	void Out(number& s, ofstream& ofst);
+	int Real(number& s);
 	// Вывод содержимого контейнера в указанный поток
 	void Out(container& c, ofstream& ofst)
 	{
@@ -18,6 +19,7 @@ namespace simple_numbers {
 			ofst << i << ": ";
 
 			Out(*curNode->n, ofst);
+			ofst << "Real = " << Real(*curNode->n) << endl;
 			curNode = curNode->next;
 
 			i++;
