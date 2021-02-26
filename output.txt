@@ -1,9 +1,9 @@
 Filled container. 
 Container contains 5 elements.
-0: It is complex: Re = 4, In = 5
-Real = 6
-1: It is complex: Re = 6, In = 7
+0: It is complex: Re = 6, In = 7
 Real = 9
+1: It is complex: Re = 4, In = 5
+Real = 6
 2: It is simple fraction: a = 2, b = 3
 Real = 0
 3: It is simple fraction: a = 5, b = 6
