@@ -4,6 +4,7 @@
 using namespace std;
 namespace simple_numbers {
 	void Out(number& s, ofstream& ofst);
+	int Real(number& s);
 
 	void OutComplex(container& c, ofstream& ofst)
 	{
@@ -15,8 +16,12 @@ namespace simple_numbers {
 		{
 			ofst << i << ": ";
 			if (curNode->n->k == number::key::COMPLEX)
+			{
 				Out(*curNode->n, ofst);
-			else ofst << endl;
+			}
+			else 
+				ofst << endl;
+				ofst << "Real = " << Real(*curNode->n) << endl;
 				curNode = curNode->next;
 				i++;
 		}

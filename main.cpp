@@ -27,7 +27,6 @@ int main(int argc, char* argv[]) {
 	In(c, ifst);
 	ofst << "Filled container. " << endl;
 	Sort(c);
-	Out(c, ofst);
 	OutComplex(c, ofst);
 	Clear(c);
 	ofst << "Empty container. " << endl;

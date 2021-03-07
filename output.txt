@@ -1,22 +1,18 @@
 Filled container. 
-Container contains 6 elements.
-0: It is complex: Re = 4, In = 5
-Measure = sm
-Real = 6
+Only complexes.
+0: 
+Real = 10
 1: It is complex: Re = 6, In = 7
 Measure = dm
 Real = 9
-2: It is simple fraction: a = 2, b = 3
+2: It is complex: Re = 4, In = 5
 Measure = sm
+Real = 6
+3: 
 Real = 0
-3: It is simple fraction: a = 5, b = 6
-Measure = sm
+4: 
 Real = 0
-4: It is simple fraction: a = 5, b = 7
-Measure = sm
+5: 
 Real = 0
-5: It is polar: r = 10, fi = 2
-Measure = sm
-Real = 10
 Empty container. 
 Only complexes.
