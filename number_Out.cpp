@@ -21,5 +21,6 @@ namespace simple_numbers {
 		default:
 			ofst << "Incorrect number!" << endl;
 		}
+		ofst << "Measure = " << s.measure << endl;
 	}
 } // end simple_numbers namespace

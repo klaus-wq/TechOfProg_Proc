@@ -17,7 +17,7 @@ namespace simple_numbers {
 			nb = new number;
 			nb->k = number::key::COMPLEX;
 			nb->obj= (void*)InComplex(ifst);
-			return nb;
+			break;
 		case 2:
 			nb = new number;
 			nb->k = number::key::SIMPLE;
@@ -27,9 +27,11 @@ namespace simple_numbers {
 			nb = new number;
 			nb->k = number::key::POLAR;
 			nb->obj = (void*)InPolar(ifst);
-			return nb;
+			break;
 		default:
 			return 0;
 		}
+		ifst >> nb->measure;
+		return nb;
 	}
 } // end simple_numbers namespace

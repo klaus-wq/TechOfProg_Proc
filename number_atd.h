@@ -10,6 +10,7 @@ namespace simple_numbers {
 	struct number {
 		// значения ключей для каждого из числа
 		enum key { COMPLEX, SIMPLE, POLAR };
+		char measure[3];
 		key k; // ключ
 		// используемые альтернативы
 		void* obj; //используем косвенное связывание
