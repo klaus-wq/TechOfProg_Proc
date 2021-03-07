@@ -30,7 +30,6 @@ int main(int argc, char* argv[]) {
 	OutComplex(c, ofst);
 	Clear(c);
 	ofst << "Empty container. " << endl;
-	OutComplex(c, ofst);
 	cout << "Stop" << endl;
 	return 0;
 }
