@@ -22,7 +22,7 @@ namespace simple_numbers {
 			nb = new number;
 			nb->k = number::key::SIMPLE;
 			nb->obj = (void*)InSimple(ifst);
-			return nb;
+			break;
 		case 3:
 			nb = new number;
 			nb->k = number::key::POLAR;

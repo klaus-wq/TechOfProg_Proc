@@ -1,10 +1,16 @@
 Filled container. 
 Container contains 6 elements.
 0: It is complex: Re = 4, In = 5
+Measure = sm
 1: It is complex: Re = 6, In = 7
+Measure = dm
 2: It is simple fraction: a = 2, b = 3
+Measure = sm
 3: It is simple fraction: a = 5, b = 6
+Measure = sm
 4: It is simple fraction: a = 5, b = 7
+Measure = sm
 5: It is polar: r = 10, fi = 2
+Measure = sm
 Empty container. 
 Container contains 0 elements.
