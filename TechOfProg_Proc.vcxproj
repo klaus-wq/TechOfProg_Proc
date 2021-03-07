@@ -162,6 +162,7 @@
     <ClCompile Include="simple_In.cpp" />
     <ClCompile Include="simple_Out.cpp" />
     <ClCompile Include="simple_real.cpp" />
+    <ClCompile Include="sort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
