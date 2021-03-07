@@ -3,6 +3,7 @@ using namespace std;
 namespace simple_numbers {
 	int Real(complex* c);
 	int Real(simple* s);
+	int Real(polar* p);
 	
 	int Real(number &s)
 	{
@@ -11,6 +12,8 @@ namespace simple_numbers {
 			return Real((complex*)s.obj);
 		case number::SIMPLE:
 			return Real((simple*)s.obj);
+		case number::POLAR:
+			return Real((polar*)s.obj);
 		default:
 			return -1;
 		}

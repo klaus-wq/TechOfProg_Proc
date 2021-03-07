@@ -158,6 +158,7 @@
     <ClCompile Include="polar_In.cpp" />
     <ClCompile Include="polar_Out.cpp" />
     <ClCompile Include="number_real.cpp" />
+    <ClCompile Include="polar_real.cpp" />
     <ClCompile Include="simple_In.cpp" />
     <ClCompile Include="simple_Out.cpp" />
     <ClCompile Include="simple_real.cpp" />
