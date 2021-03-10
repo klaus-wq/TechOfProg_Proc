@@ -1,17 +1,78 @@
 Filled container. 
+Container contains 8 elements.
+0: It is complex: Re = 1, In = 2
+Measure = sm
+Real = 2
+1: It is simple fraction: a = 2, b = 3
+Measure = sm
+Real = 0
+2: It is simple fraction: a = 5, b = 6
+Measure = dm
+Real = 0
+3: It is complex: Re = 3, In = 4
+Measure = dm
+Real = 5
+4: It is polar: r = 5, fi = 5
+Measure = sm
+Real = 5
+5: It is simple fraction: a = 100, b = 15
+Measure = m
+Real = 6
+6: It is polar: r = 360, fi = 1
+Measure = m
+Real = 360
+7: It is complex: Re = 1, In = -1
+Measure = m
+Real = 1
+
+
+Sorted container. 
+Container contains 8 elements.
+0: It is polar: r = 360, fi = 1
+Measure = m
+Real = 360
+1: It is simple fraction: a = 100, b = 15
+Measure = m
+Real = 6
+2: It is complex: Re = 3, In = 4
+Measure = dm
+Real = 5
+3: It is polar: r = 5, fi = 5
+Measure = sm
+Real = 5
+4: It is complex: Re = 1, In = 2
+Measure = sm
+Real = 2
+5: It is complex: Re = 1, In = -1
+Measure = m
+Real = 1
+6: It is simple fraction: a = 5, b = 6
+Measure = dm
+Real = 0
+7: It is simple fraction: a = 2, b = 3
+Measure = sm
+Real = 0
+
+
+Filtered container. 
 Only complexes.
 0: 
-Real = 10
-1: It is complex: Re = 6, In = 7
-Measure = dm
-Real = 9
-2: It is complex: Re = 4, In = 5
-Measure = sm
+Real = 360
+1: 
 Real = 6
+2: It is complex: Re = 3, In = 4
+Measure = dm
+Real = 5
 3: 
+Real = 5
+4: It is complex: Re = 1, In = 2
+Measure = sm
+Real = 2
+5: It is complex: Re = 1, In = -1
+Measure = m
+Real = 1
+6: 
 Real = 0
-4: 
-Real = 0
-5: 
+7: 
 Real = 0
 Empty container. 

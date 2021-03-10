@@ -26,7 +26,11 @@ int main(int argc, char* argv[]) {
 	Init(c);
 	In(c, ifst);
 	ofst << "Filled container. " << endl;
+	Out(c, ofst);
+	ofst << "\n\nSorted container. " << endl;
 	Sort(c);
+	Out(c, ofst);
+	ofst << "\n\nFiltered container. " << endl;
 	OutComplex(c, ofst);
 	Clear(c);
 	ofst << "Empty container. " << endl;
