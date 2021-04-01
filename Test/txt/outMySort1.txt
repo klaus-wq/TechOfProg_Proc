@@ -1,0 +1,13 @@
+Container contains 4 elements.
+0: It is complex: Re = 1, In = 7
+Measure = dm
+Real = 7
+1: It is complex: Re = 4, In = 5
+Measure = dm
+Real = 6
+2: It is polar: r = 1, fi = 2
+Measure = sm
+Real = 1
+3: It is polar: r = 1, fi = 7
+Measure = sm
+Real = 0

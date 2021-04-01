@@ -1,0 +1,11 @@
+Only complexes.
+0: It is complex: Re = 1, In = 7
+Measure = dm
+Real = 7
+1: 
+Real = 0
+2: 
+Real = 1
+3: It is complex: Re = 4, In = 5
+Measure = dm
+Real = 6

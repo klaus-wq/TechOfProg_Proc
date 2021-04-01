@@ -1,0 +1,15 @@
+Only complexes.
+0: It is complex: Re = 2, In = 5
+Measure = sm
+Real = 5
+1: 
+Real = 1
+2: 
+Real = 360
+3: 
+Real = 0
+4: 
+Real = 1
+5: It is complex: Re = 1, In = 0
+Measure = mm
+Real = 1

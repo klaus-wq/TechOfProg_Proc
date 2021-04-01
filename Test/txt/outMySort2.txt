@@ -1,0 +1,10 @@
+Container contains 3 elements. 
+0: It is simple fraction: a = 2, b = 2
+Measure = sm
+Real = 1
+1: It is simple fraction: a = 1, b = 3
+Measure = dm
+Real = 0
+2: It is simple fraction: a = 5, b = 6
+Measure = mm
+Real = 0

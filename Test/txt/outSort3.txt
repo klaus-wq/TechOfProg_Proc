@@ -1,0 +1,19 @@
+Container contains 6 elements.
+0: It is polar: r = 360, fi = 1
+Measure = sm
+Real = 360
+1: It is complex: Re = 2, In = 5
+Measure = sm
+Real = 5
+2: It is simple fraction: a = 5, b = 3
+Measure = sm
+Real = 1
+3: It is complex: Re = 1, In = 0
+Measure = mm
+Real = 1
+4: It is simple fraction: a = 1, b = 1
+Measure = mm
+Real = 1
+5: It is polar: r = 0, fi = 0
+Measure = dm
+Real = 0
