@@ -20,6 +20,22 @@ int main(int argc, char* argv[]) {
 		exit(1);
 	}
 	ifstream ifst(argv[1]);
+	if (!ifst)
+	{
+		cout << "No input file found!" << endl;
+		return 0;
+	}
+	
+	char ch; //проверка файла на пустоту
+	FILE* f = fopen(argv[1], "r");
+	if (fscanf(f, "%c", &ch) == EOF)
+	{
+		cout << "Input file is Empty" << endl;
+
+		return 1;
+	}
+	fclose(f);
+
 	ofstream ofst(argv[2]);
 	cout << "Start" << endl;
 	container c;

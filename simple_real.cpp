@@ -1,9 +1,18 @@
 #include "simple_atd.h"
+#include <iostream>
 using namespace std;
 namespace simple_numbers {
 	// Приведение комплексного к действительному
 	int Real(simple *s)
 	{
-		return (s->a)/(s->b);
+		if (s->b == 0)
+		{
+			cout << "SimpleReal! Деление на 0!" << endl;
+			return 0;
+		}
+		else
+		{
+			return (s->a) / (s->b);
+		}
 	}
 } // end simple_numbers namespace

@@ -1,5 +1,7 @@
 #include <fstream>
 #include "number_atd.h"
+#include <iostream>
+#include <stdlib.h>
 using namespace std;
 namespace simple_numbers {
 	// Сигнатуры требуемых внешних функций
@@ -12,6 +14,18 @@ namespace simple_numbers {
 		number* nb;
 		int k;
 		ifst >> k;
+		if (ifst.fail())
+		{
+			cout << "Wrong input of k!" << endl;
+			exit(0);
+		}
+
+		if ((k != 1) && (k != 2) && (k != 3))
+		{
+			cout << "Wrong number of k!" << endl;
+			exit(0);
+		}
+
 		switch (k) {
 		case 1:
 			nb = new number;
