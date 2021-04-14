@@ -10,6 +10,7 @@ namespace simple_numbers {
 	void Out(container& c, ofstream& ofst);
 	void OutComplex(container& c, ofstream& ofst);
 	void Sort(container& c);
+	void MultiMethod(container& c, ofstream& ofst);
 }
 using namespace simple_numbers;
 
@@ -48,6 +49,8 @@ int main(int argc, char* argv[]) {
 	Out(c, ofst);
 	ofst << "\n\nFiltered container. " << endl;
 	OutComplex(c, ofst);
+	ofst << "\n" << endl;
+	MultiMethod(c, ofst);
 	Clear(c);
 	ofst << "Empty container. " << endl;
 	cout << "Stop" << endl;
