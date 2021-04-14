@@ -10,5 +10,38 @@ Real = 0
 Real = 0
 4: It is simple fraction: a = 5, b = 7
 Real = 0
+
+
+Multimethod.
+Complex and Complex.
+It is complex: Re = 4, In = 5
+It is complex: Re = 6, In = 7
+Complex and Simple.
+It is complex: Re = 4, In = 5
+It is simple fraction: a = 2, b = 3
+Complex and Simple.
+It is complex: Re = 4, In = 5
+It is simple fraction: a = 5, b = 6
+Complex and Simple.
+It is complex: Re = 4, In = 5
+It is simple fraction: a = 5, b = 7
+Complex and Simple.
+It is complex: Re = 6, In = 7
+It is simple fraction: a = 2, b = 3
+Complex and Simple.
+It is complex: Re = 6, In = 7
+It is simple fraction: a = 5, b = 6
+Complex and Simple.
+It is complex: Re = 6, In = 7
+It is simple fraction: a = 5, b = 7
+Simple and Simple.
+It is simple fraction: a = 2, b = 3
+It is simple fraction: a = 5, b = 6
+Simple and Simple.
+It is simple fraction: a = 2, b = 3
+It is simple fraction: a = 5, b = 7
+Simple and Simple.
+It is simple fraction: a = 5, b = 6
+It is simple fraction: a = 5, b = 7
 Empty container. 
 Container contains 0 elements.
