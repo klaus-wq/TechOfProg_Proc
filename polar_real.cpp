@@ -4,15 +4,12 @@
 using namespace std;
 namespace simple_numbers {
 	// ѕриведение пол€рных координат к действительному
-	int Real(polar *p)
-	{
-		if (pow((p->r) * sin(p->fi), 2) + pow((p->r) * cos(p->fi), 2) < 0)
-		{
+	int Real(polar *p) {
+		if (pow((p->r) * sin(p->fi), 2) + pow((p->r) * cos(p->fi), 2) < 0) {
 			cout << "PolarReal!  орень из отрицательного числа!" << endl;
 			return 0;
 		}
-		else
-		{
+		else {
 			return sqrt(pow((p->r) * sin(p->fi), 2) + pow((p->r) * cos(p->fi), 2));
 		}
 	}

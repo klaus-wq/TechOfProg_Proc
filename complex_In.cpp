@@ -7,8 +7,7 @@ namespace simple_numbers {
 	complex* InComplex(ifstream& ifst) {
 		complex* r = new complex;
 		ifst >> r->x >> r->y;
-		if (ifst.fail())
-		{
+		if (ifst.fail()) {
 			cout << "Wrong input of function InComplex!" << endl;
 			exit(0);
 		}

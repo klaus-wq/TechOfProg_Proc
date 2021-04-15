@@ -6,17 +6,14 @@ namespace simple_numbers {
 	void Out(number& s, ofstream& ofst);
 	int Real(number& s);
 
-	void OutComplex(container& c, ofstream& ofst)
-	{
+	void OutComplex(container& c, ofstream& ofst) {
 		ofst << "Only complexes." << endl;
 		node* curNode = c.head;
 		int i = 0;
 
-		while (curNode != NULL)
-		{
+		while (curNode != NULL) {
 			ofst << i << ": ";
-			if (curNode->n->k == number::key::COMPLEX)
-			{
+			if (curNode->n->k == number::key::COMPLEX) {
 				Out(*curNode->n, ofst);
 			}
 			else 
@@ -26,5 +23,4 @@ namespace simple_numbers {
 				i++;
 		}
 	}
-
 } // end simple_numbers namespace

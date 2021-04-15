@@ -5,11 +5,10 @@
 #endif
 using namespace std;
 namespace simple_numbers {
-	//int Compare(number* first, number* second);
+
     int Real(number& s);
 
-    bool Compare(number* first, number* second)
-    {
+    bool Compare(number* first, number* second) {
         return Real(*first) < Real(*second);
     }
 

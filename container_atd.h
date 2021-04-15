@@ -4,14 +4,12 @@
 namespace simple_numbers {
 	struct number;
 	// Простейший контейнер на основе двунаправленного линейного списка
-	struct node
-	{
+	struct node {
 		number* n;
 		node* next;
 		node* prev;
 	};
-	struct container
-	{
+	struct container {
 		node* head;
 		node* tail;
 		int len;

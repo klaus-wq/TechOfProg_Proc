@@ -5,8 +5,7 @@ namespace simple_numbers {
 	int Real(simple* s);
 	int Real(polar* p);
 	
-	int Real(number &s)
-	{
+	int Real(number &s) {
 		switch (s.k) {
 		case number::COMPLEX:
 			return Real((complex*)s.obj);
@@ -18,5 +17,4 @@ namespace simple_numbers {
 			return -1;
 		}
 	}
-
 } // end simple_numbers namespace

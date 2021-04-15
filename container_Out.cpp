@@ -6,16 +6,14 @@ namespace simple_numbers {
 	void Out(number& s, ofstream& ofst);
 	int Real(number& s);
 	// Вывод содержимого контейнера в указанный поток
-	void Out(container& c, ofstream& ofst)
-	{
+	void Out(container& c, ofstream& ofst) {
 		ofst << "Container contains " << c.len
 			<< " elements." << endl;
 		//ВЫВОДИМ СПИСОК С НАЧАЛА
 		node* curNode = c.head;
 		int i = 0;
 
-		while (curNode != NULL)
-		{
+		while (curNode != NULL) {
 			ofst << i << ": ";
 
 			Out(*curNode->n, ofst);

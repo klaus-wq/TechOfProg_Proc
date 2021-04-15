@@ -7,8 +7,7 @@ namespace simple_numbers {
 	polar* InPolar(ifstream& ifst) {
 		polar* p = new polar;
 		ifst >> p->r >> p->fi;
-		if (ifst.fail())
-		{
+		if (ifst.fail()) {
 			cout << "Wrong input of function InPolar!" << endl;
 			exit(0);
 		}

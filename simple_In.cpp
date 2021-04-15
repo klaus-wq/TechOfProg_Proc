@@ -4,12 +4,10 @@
 using namespace std;
 namespace simple_numbers {
 	// Ввод параметров простой дроби из потока
-	simple* InSimple(ifstream& ifst)
-	{
+	simple* InSimple(ifstream& ifst) {
 		simple* t = new simple;
 		ifst >> t->a >> t->b;
-		if (ifst.fail())
-		{
+		if (ifst.fail()) {
 			cout << "Wrong input of function InSimple!" << endl;
 			exit(0);
 		}

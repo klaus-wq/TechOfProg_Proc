@@ -4,15 +4,12 @@
 using namespace std;
 namespace simple_numbers {
 	// Приведение комплексного к действительному
-	int Real(complex *c)
-	{
-		if (pow(c->x, 2) + pow(c->y, 2) < 0)
-		{
+	int Real(complex *c) {
+		if (pow(c->x, 2) + pow(c->y, 2) < 0) {
 			cout << "ComplexReal! Корень из отрицательного числа!" << endl;
 			return 0;
 		}
-		else
-		{
+		else {
 			return sqrt(pow(c->x, 2) + pow(c->y, 2));
 		}
 	}

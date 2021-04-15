@@ -9,19 +9,16 @@ namespace simple_numbers {
 	simple* InSimple(ifstream& ist);
 	polar* InPolar(ifstream& ist);
 	// Ввод параметров обобщенного числа из файла
-	number* In(ifstream& ifst)
-	{
+	number* In(ifstream& ifst) {
 		number* nb;
 		int k;
 		ifst >> k;
-		if (ifst.fail())
-		{
+		if (ifst.fail()) {
 			cout << "Wrong input of k!" << endl;
 			exit(0);
 		}
 
-		if ((k != 1) && (k != 2) && (k != 3))
-		{
+		if ((k != 1) && (k != 2) && (k != 3)) {
 			cout << "Wrong number of k!" << endl;
 			exit(0);
 		}

@@ -8,12 +8,10 @@ namespace simple_numbers {
 	void Init(container& c) { c.len = 0; c.head = NULL; c.tail = NULL; }
 	// Очистка контейнера от элементов
 	// (освобождение памяти)
-	void Clear(container& c)
-	{
+	void Clear(container& c) {
 		node* curNode = c.head;
 
-		while (curNode != NULL)
-		{
+		while (curNode != NULL) {
 			node* temp = curNode->next;
 			delete curNode;
 			curNode = temp;
