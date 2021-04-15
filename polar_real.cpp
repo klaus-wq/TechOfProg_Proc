@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 namespace simple_numbers {
-	// Приведение комплексного к действительному
+	// Приведение полярных координат к действительному
 	int Real(polar *p)
 	{
 		if (pow((p->r) * sin(p->fi), 2) + pow((p->r) * cos(p->fi), 2) < 0)

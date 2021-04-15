@@ -1,7 +1,6 @@
 #pragma once
 #ifndef __number_atd__
 #define __number_atd__
-// Подключение необходимых типов данных
 #include "complex_atd.h"
 #include "simple_atd.h"
 #include "polar_atd.h"

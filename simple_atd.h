@@ -1,5 +1,4 @@
 #pragma once
-
 #ifndef __simple_atd__
 #define __simple_atd__
 namespace simple_numbers {

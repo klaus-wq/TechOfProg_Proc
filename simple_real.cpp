@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 namespace simple_numbers {
-	// Приведение комплексного к действительному
+	// Приведение простой дроби к действительному
 	int Real(simple *s)
 	{
 		if (s->b == 0)

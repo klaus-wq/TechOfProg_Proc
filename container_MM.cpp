@@ -18,8 +18,9 @@ namespace simple_numbers {
 		return curNode;
 	}
 
-	//Ìףכüעטלעומה
+	//Ìףכüעטלועמה
 	void MultiMethod(container& c, ofstream& ofst) {
+		int count = 1;
 		ofst << "Multimethod." << endl;
 		struct node* curNode;
 		for (int i = 0; i < c.len - 1; i++) {
@@ -30,7 +31,7 @@ namespace simple_numbers {
 					curNode = get_node(c.head, j);
 					switch (curNode->n->k) {
 					case number::COMPLEX:
-						ofst << "Complex and Complex." << endl;
+						ofst << count << "Complex and Complex." << endl;
 						break;
 					case number::SIMPLE:
 						ofst << "Complex and Simple." << endl;
@@ -82,5 +83,4 @@ namespace simple_numbers {
 			}
 		}
 	}
-
 } // end simple_numbers namespace
